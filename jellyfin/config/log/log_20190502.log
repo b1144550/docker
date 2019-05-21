@@ -1,0 +1,51 @@
+[2019-05-02 01:42:34.288 +00:00] [INF] Jellyfin version: "10.3.2.0"
+[2019-05-02 01:42:34.612 +00:00] [INF] Arguments: ["/jellyfin/jellyfin.dll", "--datadir", "/config", "--cachedir", "/cache", "--ffmpeg", "/usr/local/bin/ffmpeg"]
+[2019-05-02 01:42:34.654 +00:00] [INF] Operating system: "Linux" "4.9.0.8"
+[2019-05-02 01:42:34.656 +00:00] [INF] Architecture: X64
+[2019-05-02 01:42:34.665 +00:00] [INF] 64-Bit Process: True
+[2019-05-02 01:42:34.666 +00:00] [INF] User Interactive: True
+[2019-05-02 01:42:34.666 +00:00] [INF] Processor count: 1
+[2019-05-02 01:42:34.667 +00:00] [INF] Program data path: "/config"
+[2019-05-02 01:42:34.667 +00:00] [INF] Web resources path: "/jellyfin/jellyfin-web/src"
+[2019-05-02 01:42:34.667 +00:00] [INF] Application directory: "/jellyfin/"
+[2019-05-02 01:42:34.996 +00:00] [INF] Setting cache path to /cache
+[2019-05-02 01:42:35.185 +00:00] [INF] Loading assemblies
+[2019-05-02 01:42:35.882 +00:00] [INF] Sqlite version: 3.26.0
+[2019-05-02 01:42:35.896 +00:00] [INF] Sqlite compiler options: COMPILER=gcc-5.4.0 20160609,DEFAULT_FOREIGN_KEYS,ENABLE_COLUMN_METADATA,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS4,ENABLE_FTS5,ENABLE_JSON1,ENABLE_RTREE,THREADSAFE=1
+[2019-05-02 01:42:36.080 +00:00] [INF] Default journal_mode for "/config/data/users.db" is "delete"
+[2019-05-02 01:42:36.126 +00:00] [INF] PRAGMA synchronous=1
+[2019-05-02 01:42:36.260 +00:00] [INF] Default journal_mode for "/config/data/authentication.db" is "delete"
+[2019-05-02 01:42:36.288 +00:00] [INF] PRAGMA synchronous=1
+[2019-05-02 01:42:36.797 +00:00] [INF] Default journal_mode for "/config/data/activitylog.db" is "delete"
+[2019-05-02 01:42:36.809 +00:00] [INF] PRAGMA synchronous=1
+[2019-05-02 01:42:36.816 +00:00] [INF] Default journal_mode for "/config/data/displaypreferences.db" is "delete"
+[2019-05-02 01:42:36.827 +00:00] [INF] PRAGMA synchronous=1
+[2019-05-02 01:42:37.681 +00:00] [INF] Default journal_mode for "/config/data/library.db" is "delete"
+[2019-05-02 01:42:37.692 +00:00] [INF] PRAGMA synchronous=1
+[2019-05-02 01:42:37.876 +00:00] [INF] Saving system configuration
+[2019-05-02 01:42:37.877 +00:00] [INF] Setting cache path to /cache
+[2019-05-02 01:42:38.174 +00:00] [INF] Calling ServiceStack AppHost.Init
+[2019-05-02 01:42:41.658 +00:00] [INF] SkiaSharp version: 1.68.0.0
+[2019-05-02 01:42:41.688 +00:00] [INF] Running startup tasks
+[2019-05-02 01:42:41.768 +00:00] [INF] Daily trigger for "Chapter image extraction" set to fire at 05/02/2019 02:00, which is 0:17:18.2311727 from now.
+[2019-05-02 01:42:43.652 +00:00] [INF] FFmpeg validation: Found ffmpeg version "4.0"
+[2019-05-02 01:42:43.652 +00:00] [INF] FFmpeg validation: Found suitable ffmpeg version
+[2019-05-02 01:42:43.676 +00:00] [INF] Validating media encoder at "/usr/local/bin/ffmpeg"
+[2019-05-02 01:42:43.918 +00:00] [INF] Available "decoders": ["h264", "h264_cuvid", "hevc", "hevc_cuvid", "mpeg2video", "aac", "ac3", "mp3"]
+[2019-05-02 01:42:43.967 +00:00] [INF] Available "encoders": ["libx264", "h264_nvenc", "h264_vaapi", "libx265", "hevc_nvenc", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "ac3", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2019-05-02 01:42:43.972 +00:00] [INF] Encoder validation complete
+[2019-05-02 01:42:43.974 +00:00] [INF] FFmpeg: "SetByArgument": "/usr/local/bin/ffmpeg"
+[2019-05-02 01:42:43.980 +00:00] [INF] ServerId: "a24b075e7b244784a1435f9365e2a23d"
+[2019-05-02 01:42:44.631 +00:00] [INF] Executed all pre-startup entry points in 0:00:00.6100915
+[2019-05-02 01:42:44.637 +00:00] [INF] Core startup complete
+[2019-05-02 01:42:44.816 +00:00] [INF] "StartupTrigger" fired for task: "Check for plugin updates"
+[2019-05-02 01:42:44.832 +00:00] [INF] Queueing task "PluginUpdateTask"
+[2019-05-02 01:42:44.951 +00:00] [INF] Executing "Check for plugin updates"
+[2019-05-02 01:42:45.062 +00:00] [INF] HttpClientManager "GET": "https://repo.jellyfin.org/releases/plugin/manifest.json"
+[2019-05-02 01:42:45.958 +00:00] [WRN] "GetItemList" query time (slow): 702.2924. Query: "select type,data,StartDate,EndDate,ChannelId,IsMovie,IsSeries,EpisodeTitle,IsRepeat,CommunityRating,CustomRating,IndexNumber,IsLocked,PreferredMetadataLanguage,PreferredMetadataCountryCode,Width,Height,DateLastRefreshed,Name,Path,PremiereDate,Overview,ParentIndexNumber,ProductionYear,OfficialRating,ForcedSortName,RunTimeTicks,Size,DateCreated,DateModified,guid,Genres,ParentId,Audio,ExternalServiceId,IsInMixedFolder,DateLastSaved,LockedFields,Studios,Tags,TrailerTypes,OriginalTitle,PrimaryVersionId,DateLastMediaAdded,Album,CriticRating,IsVirtualItem,SeriesName,SeasonName,SeasonId,SeriesId,PresentationUniqueKey,InheritedParentalRatingValue,ExternalSeriesId,Tagline,ProviderIds,Images,ProductionLocations,ExtraIds,TotalBitrate,ExtraType,Artists,AlbumArtists,ExternalId,SeriesPresentationUniqueKey,ShowId,OwnerId from TypedBaseItems A where ParentId=@ParentId"
+[2019-05-02 01:42:47.126 +00:00] [WRN] "GetItemList" query time (slow): 266.5075. Query: "select type,data,StartDate,EndDate,ChannelId,IsMovie,IsSeries,EpisodeTitle,IsRepeat,CommunityRating,CustomRating,IndexNumber,IsLocked,PreferredMetadataLanguage,PreferredMetadataCountryCode,Width,Height,DateLastRefreshed,Name,Path,PremiereDate,Overview,ParentIndexNumber,ProductionYear,OfficialRating,ForcedSortName,RunTimeTicks,Size,DateCreated,DateModified,guid,Genres,ParentId,Audio,ExternalServiceId,IsInMixedFolder,DateLastSaved,LockedFields,Studios,Tags,TrailerTypes,OriginalTitle,PrimaryVersionId,DateLastMediaAdded,Album,CriticRating,IsVirtualItem,SeriesName,SeasonName,SeasonId,SeriesId,PresentationUniqueKey,InheritedParentalRatingValue,ExternalSeriesId,Tagline,ProviderIds,Images,ProductionLocations,ExtraIds,TotalBitrate,ExtraType,Artists,AlbumArtists,ExternalId,SeriesPresentationUniqueKey,ShowId,OwnerId from TypedBaseItems A where ParentId=@ParentId"
+[2019-05-02 01:42:47.173 +00:00] [INF] "Check for plugin updates" Completed after 0 minute(s) and 2 seconds
+[2019-05-02 01:42:47.383 +00:00] [INF] ExecuteQueuedTasks
+[2019-05-02 01:42:47.584 +00:00] [INF] Executed all post-startup entry points in 0:00:02.9468833
+[2019-05-02 01:42:47.872 +00:00] [WRN] HTTP Response 200 to "172.18.0.10". Time (slow): 0:00:01.6199077. "http://172.18.0.10:8096/system/ping"
+[2019-05-02 01:42:47.926 +00:00] [INF] Registering publisher for "urn:schemas-upnp-org:device:MediaServer:1" on "172.18.0.10"

@@ -1,0 +1,68 @@
+
+>>>>> 2019-04-19 <<<<<
+
+16:25:43 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+16:25:43 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: 739338f4598235567ce2c98d6fabe0f2d1e0d20f
+16:25:43 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+16:25:44 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+16:25:44 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+16:25:44 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-04-19 <<<<<
+
+16:32:39 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+16:32:39 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: 9e08d3cf34fea2a7e46aca30327f2d816d1228f7
+16:32:39 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+16:32:41 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+16:32:41 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+16:32:41 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-04-19 <<<<<
+
+16:35:30 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+16:35:30 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: 00f400bef506041da2993a95d79969ed044be9f4
+16:35:30 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+16:35:30 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+16:35:30 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+16:35:30 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-04-19 <<<<<
+
+16:38:12 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+16:38:12 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: ee9dfa97e71cee1f8413421afdf38b008f2f8b00
+16:38:12 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+16:38:15 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+16:38:15 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+16:38:15 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-04-19 <<<<<
+
+16:43:11 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+16:43:11 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: cd45ee432d79e6a8fc1b9bca4b521d6f023f9fcd
+16:43:11 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+16:43:12 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+16:43:12 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+16:43:12 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-04-19 <<<<<
+
+16:52:20 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+16:52:20 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: 7dc049477c82dc21d081752894a381507237c2ed
+16:52:20 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+16:52:21 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+16:52:21 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+16:52:21 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-04-19 <<<<<
+
+17:03:18 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+17:03:18 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: c579e22c2d6e3b905988312b3d202cb0861e80b8
+17:03:18 INFO  00 core.infoUtil InfoUtil.cpp:395  - - - - - - - - - Generating private key and certificate, retry 0
+17:03:19 INFO  00 core.infoUtil InfoUtil.cpp:416  - - - - - - - - - Private key and certificate files have been successfully generated
+17:03:19 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/SharedData.db
+17:03:19 INFO  00 core.databaseAccess DataUtil.cpp:163  - - - - - - Initializing schema for /home/.AirVideoServerHD/ApplicationData/Data/ItemCleanupManager.db
+
+>>>>> 2019-05-06 <<<<<
+
+20:42:08 INFO  00 mediaManager MediaManager.cpp:180 - - - - - - - - Air Video Server HD 2.2.3 (202.03, x64) starting on Linux 4.9.0-8-amd64
+20:42:08 INFO  00 mediaManager MediaManager.cpp:191 - - - - - - - - Server Id: c579e22c2d6e3b905988312b3d202cb0861e80b8

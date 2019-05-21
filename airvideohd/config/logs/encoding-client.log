@@ -1,0 +1,24 @@
+2019-04-19 16:25:44:072 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 16:25:44:072 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 16:25:44:072 rpc.encoder-process      [I] Starting Write Thread.
+2019-04-19 16:32:41:476 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 16:32:41:477 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 16:32:41:477 rpc.encoder-process      [I] Starting Write Thread.
+2019-04-19 16:35:30:743 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 16:35:30:744 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 16:35:30:744 rpc.encoder-process      [I] Starting Write Thread.
+2019-04-19 16:38:15:059 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 16:38:15:060 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 16:38:15:060 rpc.encoder-process      [I] Starting Write Thread.
+2019-04-19 16:43:12:027 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 16:43:12:029 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 16:43:12:029 rpc.encoder-process      [I] Starting Write Thread.
+2019-04-19 16:52:21:209 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 16:52:21:211 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 16:52:21:211 rpc.encoder-process      [I] Starting Write Thread.
+2019-04-19 17:03:19:162 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-04-19 17:03:19:163 rpc.encoder-process      [I] Starting Read Thread.
+2019-04-19 17:03:19:163 rpc.encoder-process      [I] Starting Write Thread.
+2019-05-06 20:42:08:282 rpc.encoder-process      [I] Starting /Resources/bin/ExternalEncoder (/config/logs/external-encoder.log, /home/.AirVideoServerHD/ApplicationData/Cache/ExternalEncoder)
+2019-05-06 20:42:08:310 rpc.encoder-process      [I] Starting Read Thread.
+2019-05-06 20:42:08:310 rpc.encoder-process      [I] Starting Write Thread.

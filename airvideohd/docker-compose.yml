@@ -1,0 +1,42 @@
+version: "3.6"
+services:
+  airvideo:
+    image: dmaxwell/airvideohd
+    container_name: airvideo
+    #environment:
+     # - PUID=1000
+     # - PGID=1000
+    volumes:
+      - ~/docker/airvideohd/config:/config
+      - ~/shared_data/b1144550/files:/media
+      - ~/docker/airvideohd/transcode:/conversionPath
+    ports:
+      - 5353:5353/udp
+        # - 45633:45633
+      - 45633:45633/udp
+        #      - 80:80
+    restart: unless-stopped
+    networks:
+      - traefik_proxy 
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=airvideo"
+#      - "traefik.frontend.rule=Host:${DOMAINNAME}; PathPrefixStrip: /qbittorrent"
+      - "traefik.frontend.rule=Host:airvideo.${DOMAINNAME}"
+      - "traefik.port=45633"
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.frontend.headers.SSLRedirect=true"
+      - "traefik.frontend.headers.STSSeconds=315360000"
+      - "traefik.frontend.headers.browserXSSFilter=true"
+      - "traefik.frontend.headers.contentTypeNosniff=true"
+      - "traefik.frontend.headers.forceSTSHeader=true"
+      - "traefik.frontend.headers.SSLHost=example.com"
+      - "traefik.frontend.headers.STSIncludeSubdomains=true"
+      - "traefik.frontend.headers.STSPreload=true"
+      - "traefik.frontend.headers.frameDeny=true"
+networks:
+  traefik_proxy:
+    external:
+      name: traefik_proxy
+  default:
+    driver: bridge

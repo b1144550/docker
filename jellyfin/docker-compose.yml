@@ -1,0 +1,33 @@
+version: "3"  
+services:  
+  jellyfin:  
+    image: jellyfin/jellyfin  
+    volumes:  
+      - ./config:/config  
+      - ./cache:/cache  
+      - /root/shared_data/b1144550/files:/media  
+    networks:
+      - traefik_proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.tags=frontend"
+      - "traefik.frontend.passHostHeader=true"
+      - "traefik.admin.backend=jellyfin"
+      - "traefik.admin.frontend.rule=Host:jf.${DOMAINNAME}"
+      - "traefik.admin.port=8096"
+      - "traefik.admin.protocol=https"
+      - "traefik.frontend.headers.SSLRedirect=true"
+      - "traefik.frontend.headers.STSSeconds=315360000"
+      - "traefik.frontend.headers.browserXSSFilter=true"
+      - "traefik.frontend.headers.contentTypeNosniff=true"
+      - "traefik.frontend.headers.forceSTSHeader=true"
+      - "traefik.frontend.headers.SSLHost=example.com"
+      - "traefik.frontend.headers.STSIncludeSubdomains=true"
+      - "traefik.frontend.headers.STSPreload=true"
+      - "traefik.frontend.headers.frameDeny=true"
+networks:
+  traefik_proxy:
+    external:
+      name: traefik_proxy
+  default:
+    driver: bridge

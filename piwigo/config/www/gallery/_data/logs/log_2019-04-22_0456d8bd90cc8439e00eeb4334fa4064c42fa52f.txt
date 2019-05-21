@@ -1,0 +1,141 @@
+[2019-04-22 14:41:57]	[INFO]	upload_file_pdf, $file_path = ././upload/2019/04/22/20190422144157-c427c950.jpg, $representative_ext = 
+[2019-04-22 14:41:57]	[INFO]	upload_file_tiff, $file_path = ././upload/2019/04/22/20190422144157-c427c950.jpg, $representative_ext = 
+[2019-04-22 14:41:57]	[INFO]	upload_file_video, $file_path = ././upload/2019/04/22/20190422144157-c427c950.jpg, $representative_ext = 
+[2019-04-22 14:41:57]	[INFO]	Handling ././upload/2019/04/22/20190422144157-c427c950.jpg got 
+[2019-04-22 14:41:58]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144157-c427c950-th.jpg_'
+[2019-04-22 14:41:58]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144157-c427c950-th.jpg_'
+[2019-04-22 14:41:59]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144157-c427c950-th.jpg_'
+[2019-04-22 14:41:59]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144157-c427c950-th.jpg_'
+[2019-04-22 14:41:59]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144157-c427c950-th.jpg_'
+[2019-04-22 14:42:04]	[INFO]	upload_file_pdf, $file_path = ././upload/2019/04/22/20190422144204-bea7f746.jpg, $representative_ext = 
+[2019-04-22 14:42:04]	[INFO]	upload_file_tiff, $file_path = ././upload/2019/04/22/20190422144204-bea7f746.jpg, $representative_ext = 
+[2019-04-22 14:42:04]	[INFO]	upload_file_video, $file_path = ././upload/2019/04/22/20190422144204-bea7f746.jpg, $representative_ext = 
+[2019-04-22 14:42:04]	[INFO]	Handling ././upload/2019/04/22/20190422144204-bea7f746.jpg got 
+[2019-04-22 14:42:04]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144204-bea7f746-th.jpg_'
+[2019-04-22 14:42:04]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144204-bea7f746-th.jpg_'
+[2019-04-22 14:42:05]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144204-bea7f746-th.jpg_'
+[2019-04-22 14:42:05]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144204-bea7f746-th.jpg_'
+[2019-04-22 14:42:05]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144204-bea7f746-th.jpg_'
+[2019-04-22 14:42:09]	[INFO]	upload_file_pdf, $file_path = ././upload/2019/04/22/20190422144209-d8b37491.jpg, $representative_ext = 
+[2019-04-22 14:42:09]	[INFO]	upload_file_tiff, $file_path = ././upload/2019/04/22/20190422144209-d8b37491.jpg, $representative_ext = 
+[2019-04-22 14:42:09]	[INFO]	upload_file_video, $file_path = ././upload/2019/04/22/20190422144209-d8b37491.jpg, $representative_ext = 
+[2019-04-22 14:42:09]	[INFO]	Handling ././upload/2019/04/22/20190422144209-d8b37491.jpg got 
+[2019-04-22 14:42:09]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144209-d8b37491-th.jpg_'
+[2019-04-22 14:42:09]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144209-d8b37491-th.jpg_'
+[2019-04-22 14:42:10]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144209-d8b37491-th.jpg_'
+[2019-04-22 14:42:10]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144209-d8b37491-th.jpg_'
+[2019-04-22 14:42:10]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144209-d8b37491-th.jpg_'
+[2019-04-22 14:42:15]	[INFO]	upload_file_pdf, $file_path = ././upload/2019/04/22/20190422144215-553f51ff.jpg, $representative_ext = 
+[2019-04-22 14:42:15]	[INFO]	upload_file_tiff, $file_path = ././upload/2019/04/22/20190422144215-553f51ff.jpg, $representative_ext = 
+[2019-04-22 14:42:15]	[INFO]	upload_file_video, $file_path = ././upload/2019/04/22/20190422144215-553f51ff.jpg, $representative_ext = 
+[2019-04-22 14:42:15]	[INFO]	Handling ././upload/2019/04/22/20190422144215-553f51ff.jpg got 
+[2019-04-22 14:42:15]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144215-553f51ff-th.jpg_'
+[2019-04-22 14:42:15]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144215-553f51ff-th.jpg_'
+[2019-04-22 14:42:16]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144215-553f51ff-th.jpg_'
+[2019-04-22 14:42:16]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144215-553f51ff-th.jpg_'
+[2019-04-22 14:42:16]	[ERROR]	[i.php]	404 Source not found
+  url: '/i.php?/upload/2019/04/22/20190422144215-553f51ff-th.jpg_'
+[2019-04-22 14:42:24]	[DEBUG]	[i.php]	
+  src_path: '20190422144157-c427c950.jpg'
+  derivative_path: '20190422144157-c427c950-th.jpg'
+  o_size: '4032 3024 12192768'
+  d_size: '144 108 15552'
+  mem_usage: 0.9
+  timing: array(
+    'load' => 1943,
+    'rotate' => '',
+    'crop' => '',
+    'scale' => 3137,
+    'sharpen' => '',
+    'watermark' => '',
+    'save' => 14,
+    'send' => 2,
+    'total' => 5099,
+  )
+[2019-04-22 14:42:24]	[DEBUG]	[i.php]	
+  src_path: '20190422144209-d8b37491.jpg'
+  derivative_path: '20190422144209-d8b37491-th.jpg'
+  o_size: '3024 4032 12192768'
+  d_size: '108 144 15552'
+  mem_usage: 0.9
+  timing: array(
+    'load' => 1927,
+    'rotate' => '',
+    'crop' => '',
+    'scale' => 3201,
+    'sharpen' => '',
+    'watermark' => '',
+    'save' => 2,
+    'send' => 6,
+    'total' => 5138,
+  )
+[2019-04-22 14:42:24]	[DEBUG]	[i.php]	
+  src_path: '20190422144215-553f51ff.jpg'
+  derivative_path: '20190422144215-553f51ff-th.jpg'
+  o_size: '3024 4032 12192768'
+  d_size: '108 144 15552'
+  mem_usage: 0.9
+  timing: array(
+    'load' => 1907,
+    'rotate' => '',
+    'crop' => '',
+    'scale' => 3206,
+    'sharpen' => '',
+    'watermark' => '',
+    'save' => 2,
+    'send' => 5,
+    'total' => 5121,
+  )
+[2019-04-22 14:42:24]	[DEBUG]	[i.php]	
+  src_path: '20190422144204-bea7f746.jpg'
+  derivative_path: '20190422144204-bea7f746-th.jpg'
+  o_size: '3024 4032 12192768'
+  d_size: '108 144 15552'
+  mem_usage: 0.9
+  timing: array(
+    'load' => 1875,
+    'rotate' => '',
+    'crop' => '',
+    'scale' => 3057,
+    'sharpen' => '',
+    'watermark' => '',
+    'save' => 6,
+    'send' => 1,
+    'total' => 4941,
+  )
+[2019-04-22 14:42:25]	[DEBUG]	[i.php]	
+  src_path: '20190422144215-553f51ff.jpg'
+  derivative_path: '20190422144215-553f51ff-la.jpg'
+  o_size: '3024 4032 12192768'
+  d_size: '567 756 428652'
+  mem_usage: 0.9
+  timing: array(
+    'load' => 1386,
+    'rotate' => '',
+    'crop' => '',
+    'scale' => 732,
+    'sharpen' => '',
+    'watermark' => '',
+    'save' => 35,
+    'send' => 2,
+    'total' => 2156,
+  )

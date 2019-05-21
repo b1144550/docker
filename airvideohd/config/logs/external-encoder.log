@@ -1,0 +1,47 @@
+2019-04-19 16:25:49:251 rpc.server               [I] Initializing GStreamer
+2019-04-19 16:25:49:308 rpc.server               [I] Starting Server
+2019-04-19 16:25:49:308 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 16:25:49:308 rpc.server               [I] Starting Server Write Thread.
+2019-04-19 16:32:44:109 rpc.server               [I] Initializing GStreamer
+2019-04-19 16:32:44:163 rpc.server               [I] Starting Server
+2019-04-19 16:32:44:163 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 16:32:44:163 rpc.server               [I] Starting Server Write Thread.
+2019-04-19 16:35:28:320 rpc.server               [I] Stopping Server Write Thread.
+2019-04-19 16:35:28:320 rpc.server               [I] Stopping Server Read Thread.
+2019-04-19 16:35:28:320 rpc.bootstrap            [I] Server Stopped
+2019-04-19 16:35:33:583 rpc.server               [I] Initializing GStreamer
+2019-04-19 16:35:33:639 rpc.server               [I] Starting Server
+2019-04-19 16:35:33:639 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 16:35:33:639 rpc.server               [I] Starting Server Write Thread.
+2019-04-19 16:38:10:236 rpc.server               [I] Stopping Server Write Thread.
+2019-04-19 16:38:10:236 rpc.server               [I] Stopping Server Read Thread.
+2019-04-19 16:38:10:236 rpc.bootstrap            [I] Server Stopped
+2019-04-19 16:38:17:680 rpc.server               [I] Initializing GStreamer
+2019-04-19 16:38:17:735 rpc.server               [I] Starting Server
+2019-04-19 16:38:17:735 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 16:38:17:736 rpc.server               [I] Starting Server Write Thread.
+2019-04-19 16:43:06:169 rpc.server               [I] Stopping Server Write Thread.
+2019-04-19 16:43:06:171 rpc.server               [I] Stopping Server Read Thread.
+2019-04-19 16:43:06:171 rpc.bootstrap            [I] Server Stopped
+2019-04-19 16:43:14:664 rpc.server               [I] Initializing GStreamer
+2019-04-19 16:43:14:722 rpc.server               [I] Starting Server
+2019-04-19 16:43:14:723 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 16:43:14:723 rpc.server               [I] Starting Server Write Thread.
+2019-04-19 16:52:18:499 rpc.server               [I] Stopping Server Write Thread.
+2019-04-19 16:52:18:501 rpc.server               [I] Stopping Server Read Thread.
+2019-04-19 16:52:18:501 rpc.bootstrap            [I] Server Stopped
+2019-04-19 16:52:24:215 rpc.server               [I] Initializing GStreamer
+2019-04-19 16:52:24:271 rpc.server               [I] Starting Server
+2019-04-19 16:52:24:271 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 16:52:24:271 rpc.server               [I] Starting Server Write Thread.
+2019-04-19 17:03:16:898 rpc.server               [I] Stopping Server Write Thread.
+2019-04-19 17:03:16:898 rpc.server               [I] Stopping Server Read Thread.
+2019-04-19 17:03:16:898 rpc.bootstrap            [I] Server Stopped
+2019-04-19 17:03:22:057 rpc.server               [I] Initializing GStreamer
+2019-04-19 17:03:22:112 rpc.server               [I] Starting Server
+2019-04-19 17:03:22:112 rpc.server               [I] Starting Server Read Thread.
+2019-04-19 17:03:22:112 rpc.server               [I] Starting Server Write Thread.
+2019-05-06 20:42:12:373 rpc.server               [I] Initializing GStreamer
+2019-05-06 20:42:12:475 rpc.server               [I] Starting Server
+2019-05-06 20:42:12:475 rpc.server               [I] Starting Server Read Thread.
+2019-05-06 20:42:12:475 rpc.server               [I] Starting Server Write Thread.

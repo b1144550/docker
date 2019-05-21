@@ -1,0 +1,11 @@
+May 02, 2019 09:58:38.772 [0x7f72277cd700] INFO - Plex DLNA Server v1.15.3.876-ad6e39743 - Docker Docker Container x86_64 - build: linux-x86_64 - GMT 08:00
+May 02, 2019 09:58:38.772 [0x7f72277cd700] INFO - Linux version: 4.9.0-8-amd64, language: C
+May 02, 2019 09:58:38.772 [0x7f72277cd700] INFO - Processor                  Intel(R) Xeon(R) CPU @ 2.50GHz
+May 02, 2019 09:58:38.755 [0x7f722f5ee740] DEBUG - Unique device name = 3e7b7fe9-4c75-e0be-03ba-9545393f1604
+May 02, 2019 09:58:38.755 [0x7f722f5ee740] DEBUG - DLNA server port: 32469
+May 02, 2019 09:58:38.773 [0x7f722f5ee740] DEBUG - PMS: http://127.0.0.1:32400/
+May 02, 2019 09:58:38.773 [0x7f722f5ee740] DEBUG - MyPlex: https://plex.tv/
+May 02, 2019 09:58:38.968 [0x7f722f5ee740] DEBUG - Reading system DLNA client profiles
+May 02, 2019 09:58:39.344 [0x7f722f5ee740] DEBUG - Read 22 DLNA client profiles
+May 02, 2019 09:58:39.366 [0x7f722f5ee740] DEBUG - DLNA device discovery enabled every 60 seconds
+May 02, 2019 09:58:39.367 [0x7f722f5ee740] DEBUG - Initialization complete

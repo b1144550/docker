@@ -1,0 +1,18 @@
+Apr 18, 2019 11:23:05.257 [0x7f443117a700] INFO - Plex Tuner Service v1.0.0.0 - Docker Docker Container x86_64 - build: 
+Apr 18, 2019 11:23:05.259 [0x7f443117a700] INFO - Linux version: 4.9.0-8-amd64 (#1 SMP Debian 4.9.144-3.1 (2019-02-19)), language: C
+Apr 18, 2019 11:23:05.259 [0x7f443117a700] INFO - Processor                  Intel(R) Xeon(R) CPU @ 2.50GHz
+Apr 18, 2019 11:23:05.259 [0x7f443117a700] INFO - /usr/lib/plexmediaserver/Plex Tuner Service /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.15.3.876-ad6e39743 32600 /waitmutex
+Apr 18, 2019 11:23:05.250 [0x7f44367c6740] INFO - [I] broker_t::start...
+Apr 18, 2019 11:23:05.258 [0x7f44367c6740] INFO - [I] device_manager_t::init.
+Apr 18, 2019 11:23:05.258 [0x7f44367c6740] INFO - [I] device_manager_t::init. Initialize provider manager
+Apr 18, 2019 11:23:05.258 [0x7f44367c6740] INFO - [I] device_manager_t::init. Initialize all device auxes
+Apr 18, 2019 11:23:05.258 [0x7f44367c6740] INFO - [I] dvb_device_factory_t::get_aux_list
+Apr 18, 2019 11:23:05.258 [0x7f44367c6740] INFO - [I] tvbutler_aux_t::init
+Apr 18, 2019 11:23:05.259 [0x7f44367c6740] INFO - [I] web_server_t::start. Starting web server on port 32600
+Apr 18, 2019 11:23:12.786 [0x7f4428ff9700] INFO - [I] web_service_t::process_device_discovery
+Apr 18, 2019 11:23:12.786 [0x7f4428ff9700] INFO - [I] device_reactor_t::get_device_list ()
+Apr 18, 2019 11:23:12.786 [0x7f4428ff9700] INFO - [I] dvb_device_factory_t::get_device_list ()
+Apr 18, 2019 11:23:14.791 [0x7f4428ff9700] INFO - [I] SAT2IP - discover_satip_servers(): no servers found
+Apr 18, 2019 11:23:15.196 [0x7f4428ff9700] INFO - [I] v4l::DeviceGetList_impl. getting v4l device list
+Apr 18, 2019 11:23:15.197 [0x7f4428ff9700] INFO - [I] onetv_factory::DeviceGetListEx >>
+Apr 18, 2019 11:23:15.198 [0x7f4428ff9700] WARN - [W] onetv_factory::DeviceGetListEx. libusb_init returned an error -99

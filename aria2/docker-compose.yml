@@ -1,0 +1,39 @@
+version: "3.6"
+services:
+  aria2:
+    container_name: aria2
+    image: abcminiuser/docker-aria2-with-webui:latest-ng
+    networks: 
+      - traefik_proxy 
+    ports:
+      - 6800:6800
+        #- 6880:80
+    volumes:
+      - ~/Download:/data
+      - ~/docker/Aria2:/conf
+    environment:
+      - PGID=100
+      - PUID=1001
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=aria2"
+      - "traefik.frontend.rule=Host:dl.${DOMAINNAME}"  
+#      - "traefik.frontend.rule=Host:${DOMAINNAME}; PathPrefixStrip: /portainer"
+      - "traefik.port=80"
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.frontend.headers.SSLRedirect=true"
+      - "traefik.frontend.headers.STSSeconds=315360000"
+      - "traefik.frontend.headers.browserXSSFilter=true"
+      - "traefik.frontend.headers.contentTypeNosniff=true"
+      - "traefik.frontend.headers.forceSTSHeader=true"
+      - "traefik.frontend.headers.SSLHost=example.com"
+      - "traefik.frontend.headers.STSIncludeSubdomains=true"
+      - "traefik.frontend.headers.STSPreload=true"
+      - "traefik.frontend.headers.frameDeny=true"
+networks:
+  traefik_proxy:
+    external:
+      name: traefik_proxy
+  default:
+    driver: bridge

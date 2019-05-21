@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><link rel=icon type=image/x-icon><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Agent Management System</title><script>var browser = {
+            versions: function() {
+                var u = navigator.userAgent,
+                    app = navigator.appVersion;
+                return { //移动终端浏览器版本信息
+                    trident: u.indexOf('Trident') > -1, //IE内核
+                    edge: u.indexOf('Edge') > -1, //Edge内核
+                    presto: u.indexOf('Presto') > -1, //opera内核
+                    webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                    gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                    mobile: !!u.match(/AppleWebKit.*Mobile.*/), // || !!u.match(/AppleWebKit/), //是否为移动终端
+                    ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                    iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                    iPad: u.indexOf('iPad') > -1, //是否iPad
+                    webApp: u.indexOf('Safari') == -1
+                        //是否web应该程序，没有头部与底部
+                };
+            }()
+        };
+        (function() {
+            window.opener = null;
+            if (browser.versions.trident) {
+                // current support ie 11 and 10
+                const re = new RegExp('Trident/[7.0|6.0]');
+                if (!re.test(navigator.userAgent)) {
+                    window.location.href = './unsupported.html' + window.location.search;
+                }
+            }
+        })();</script><link href=/static/css/app.1a32e329222b0a864ae52847ef4d8b90.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.997ae5a21bf728e3eb4b.js></script><script type=text/javascript src=/static/js/vendor.c26b4456dcd018a1ce3e.js></script><script type=text/javascript src=/static/js/app.4350e623bf8fcf5f4400.js></script></body></html>

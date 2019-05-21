@@ -1,0 +1,4 @@
+File automatically created from SVN or Git repository.
+
+URL: https://github.com/Piwigo/AMenuManager 
+Revision: 0ea3921a0ce99180e8f18e95e8f593dbdfe7e002 (Mon Jun 19 18:48:21 2017 +0200)

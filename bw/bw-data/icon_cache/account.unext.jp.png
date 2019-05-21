@@ -1,0 +1,22 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="google-site-verification" content="FTs4mVcnEsNVD2VBDpi50eljDCuPj4fQfwuUqZJUP9M"/><meta name="fragment" content="!"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66178160-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66178160-1');
+</script>
+</head><body><noscript><div>JavaScriptが無効になっています。<br>ブラウザ設定でJavaScriptを有効にしてください。</div></noscript><div id="app"></div><script>!function(){var e=window.history.pushState;function n(t){var n=/https?:\/\/.+\/genre\/(\w+)/;return n.test(t)?n.exec(t)[1]:null}function i(t){if(t)try{var n=new XMLHttpRequest;n.addEventListener("load",function(){try{var t=JSON.parse(n.responseText);window.RECOMMENDED_TITLEID=t.data.map(function(t){return t.id})}catch(t){window.RECOMMENDED_TITLEID=[]}}),n.overrideMimeType("application/json"),n.open("GET","https://metac.nxtv.jp/img/static_resource/json/"+t+".json"),n.send()}catch(t){window.RECOMMENDED_TITLEID=[]}else window.RECOMMENDED_TITLEID=[]}function t(){var t=n(window.location.href);t!==o&&(i(t),o=t)}window.history.pushState=function(t){var n;e.apply(window.history,arguments),"function"!=typeof window.Event?(n=document.createEvent("Event")).initEvent("pushstate",!0,!0):n=new Event("pushstate"),window.dispatchEvent(n)};var o=n(window.location.href);i(o),window.addEventListener("popstate",t),window.addEventListener("pushstate",t)}()</script><script type="text/javascript" src="/static/js/runtime~main.a007a5ef8ab819e2a1f9.js"></script><script type="text/javascript" src="/static/js/vendors~main.b178e9ddeb754a3853ec.chunk.js"></script><script type="text/javascript" src="/static/js/main.3ceec2a03aa8eb57e592.chunk.js"></script><script>
+  //-- Begin YTM ------------------------------------//
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=anJkO5c,FR5htDd,ELdcYpS";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+  //-- End of YTM ------------------------------------//
+</script>
+<script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body></html>

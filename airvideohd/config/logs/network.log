@@ -1,0 +1,539 @@
+
+>>>>> 2019-04-19 <<<<<
+
+16:25:44 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+16:25:44 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+16:25:44 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+16:25:44 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+16:25:44 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+16:25:44 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+16:25:49 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+16:26:09 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+16:26:09 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+16:26:09 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:54618
+16:26:09 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+16:26:10 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:26:10 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+16:26:11 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+16:26:11 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+16:26:11 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:26:11 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+16:26:11 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 10.140.0.47:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.20.0.1:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.19.0.1:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.18.0.1:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.17.0.1:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.21.0.1:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+16:26:11 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+16:26:12 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 167241813
+16:26:13 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+16:32:38 INFO  00 core.server NetworkChangeNotifierLinux.cpp:124  - Watching for network changes has been stopped.
+
+>>>>> 2019-04-19 <<<<<
+
+16:32:41 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+16:32:41 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+16:32:41 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+16:32:41 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+16:32:41 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+16:32:41 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+16:32:41 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+16:33:01 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+16:33:01 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+16:33:02 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:49746
+16:33:02 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+16:33:02 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:33:02 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+16:33:03 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+16:33:03 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+16:33:03 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:33:03 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+16:33:03 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.18.0.8:45633
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+16:33:03 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+16:33:04 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 563305027
+16:33:06 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+
+>>>>> 2019-04-19 <<<<<
+
+16:35:30 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+16:35:30 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+16:35:30 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+16:35:30 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+16:35:30 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+16:35:30 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+16:35:30 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+16:35:50 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+16:35:50 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+16:35:51 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:49804
+16:35:51 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+16:35:51 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:35:51 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+16:35:52 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+16:35:52 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+16:35:52 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:35:52 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+16:35:52 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.18.0.8:45633
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+16:35:52 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+16:35:54 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 557881276
+16:35:55 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+
+>>>>> 2019-04-19 <<<<<
+
+16:38:15 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+16:38:15 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+16:38:15 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+16:38:15 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+16:38:15 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+16:38:15 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+16:38:15 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+16:38:35 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+16:38:35 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+16:38:35 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:55732
+16:38:35 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+16:38:36 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:38:36 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+16:38:36 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+16:38:36 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+16:38:37 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:38:37 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+16:38:37 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.22.0.2:45633
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+16:38:37 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+16:38:38 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 748391131
+16:38:39 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+
+>>>>> 2019-04-19 <<<<<
+
+16:43:12 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+16:43:12 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+16:43:12 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+16:43:12 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+16:43:12 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+16:43:12 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+16:43:12 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+16:43:32 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+16:43:32 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+16:43:32 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:52652
+16:43:32 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+16:43:33 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:43:33 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+16:43:33 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+16:43:33 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+16:43:34 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:43:34 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+16:43:34 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.23.0.2:45633
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+16:43:34 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+16:43:35 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 310219024
+16:43:36 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+
+>>>>> 2019-04-19 <<<<<
+
+16:52:21 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+16:52:21 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+16:52:21 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+16:52:21 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+16:52:21 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+16:52:21 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+16:52:21 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+16:52:41 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+16:52:41 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+16:52:41 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:50106
+16:52:41 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+16:52:42 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:52:42 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+16:52:43 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+16:52:43 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+16:52:43 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+16:52:43 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+16:52:43 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.18.0.8:45633
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+16:52:43 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+16:52:44 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 718625736
+16:52:45 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+
+>>>>> 2019-04-19 <<<<<
+
+17:03:19 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+17:03:19 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+17:03:19 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+17:03:19 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+17:03:19 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+17:03:19 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+17:03:19 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+17:03:39 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+17:03:39 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+17:03:39 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:50274
+17:03:39 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+17:03:40 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+17:03:40 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:249 The date of remote configuration file (28 Aug 2014 13:41:39) is newer than the date of current configuration file (1 Jan 1970 00:00:00)
+17:03:40 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:351 Received response: 200 OK
+                                                                                      
+17:03:40 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:381 Downloaded configuration:
+                                                                                      <?xml version="1.0" encoding="UTF-8"?>
+                                                                                      <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+                                                                                      <plist version="1.0">
+                                                                                      <dict>
+                                                                                      	<key>client</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>server</key>
+                                                                                      	<dict>
+                                                                                      		<key>blackList</key>
+                                                                                      		<array>
+                                                                                      			<string>-100.1593</string>
+                                                                                      		</array>
+                                                                                      		<key>whiteList</key>
+                                                                                      		<array>
+                                                                                      			<string>100.1594-</string>
+                                                                                      		</array>
+                                                                                      	</dict>
+                                                                                      	<key>pollingInterval</key>
+                                                                                      	<integer>1</integer>
+                                                                                      	<key>serverAddresses</key>
+                                                                                      	<array>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      		<string>s0.coremediacenter.com</string>
+                                                                                      	</array>
+                                                                                      </dict>
+                                                                                      </plist>
+                                                                                      
+17:03:41 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+17:03:41 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+17:03:41 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.18.0.8:45633
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+17:03:41 INFO  00 core.trackerService TrackerServices.cpp:120 - - - Server pin is empty. Generating new pin
+17:03:42 INFO  00 core.trackerService TrackerServices.cpp:127 - - - Generated pin: 875840610
+17:03:43 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
+
+>>>>> 2019-05-02 <<<<<
+
+02:12:22 INFO  00 core.server NetworkChangeNotifierLinux.cpp:124  - Watching for network changes has been stopped.
+
+>>>>> 2019-05-06 <<<<<
+
+20:42:08 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45601.
+20:42:08 INFO  00 core.server BaseServer.cpp:401  - - - - - - - - - Started HTTP Server on port 45633.
+20:42:08 ERROR 00 bonjour BonjourImplAvahi.cpp:291  - - - - - - - - Failed to create client: Daemon not running
+                                                                    
+20:42:08 INFO  00 portmapper PortMappingController.cpp:68 - - - - - Setting up port mapping
+20:42:08 INFO  00 portmapper PortMappingController.cpp:74 - - - - - Configuring NAT-PMP port forwarding.
+20:42:08 INFO  00 portmapper PortMappingController.cpp:102  - - - - NAT-PMP port mapping not possible, trying UPnP port mapping:
+20:42:08 INFO  00 core.server NetworkChangeNotifierLinux.cpp:116  - Waiting for network changes started...
+20:42:26 ERROR 00 portmapper.upnp UPnPPortMapper.cpp:305  - - - - - Port forwarding failed! Gateway has not been detected
+                                                                    
+20:42:26 INFO  00 portmapper PortMappingController.cpp:138  - - - - UPnP port mapping not possible. The server is not reachable directly from the internet!
+20:42:27 INFO  00 core.server Server.cpp:158  - - - - - - - - - - - Resolved external address: 35.234.26.130:40560
+20:42:27 INFO  00 core.server Server.cpp:186  - - - - - - - - - - - External access enabled, configuring tracker service
+20:42:27 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+20:42:27 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+20:42:28 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:230 Received response: 200 OK
+                                                                                      
+20:42:28 INFO  00 core.trackerService.retriever TrackerConfigurationRetriever.cpp:318 Remote server list is not modified. We don't have to download it
+20:42:28 INFO  00 core.server Server.cpp:194  - - - - - - - - - - - Server has been successfuly registered at the tracker service
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:85  - - - =============================
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:86  - - - Configuring tracker services.
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:87  - - - =============================
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:91  - - - Available network addresses:
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 172.18.0.6:45633
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:98  - - - address: 35.234.26.130:45633
+20:42:28 ERROR 00 core.trackerService TrackerServerMethods.cpp:105  updateServerState() call failed
+20:42:28 INFO  00 core.trackerService TrackerServices.cpp:158 - - - Fast update of server state failed. Resubmitting full server state.
+20:42:29 INFO  00 core.trackerService TrackerServices.cpp:177 - - - Server state successfully resubmitted
